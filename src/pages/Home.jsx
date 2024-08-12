@@ -1,38 +1,51 @@
 import { CardContainer, HeaderContainer, MainContainer, DownContainer } from "./Home.styled";
+
+import Logo  from '../assets/Logo-svg.svg';
+
+import Cachorro from '../assets/inicio cachorro.png';
+
+import Gato from '../assets/gato inicio.png';
+
 export default function Home() {
   return (
     <CardContainer>
       
       <HeaderContainer>
        <h1>
-        <a href="/">LOCAPET</a>
+        <a href="/"><img src= { Logo } alt="" width={200} /></a>
        </h1>
+
         <div>
         <a href="https://5173-annyellyp-locapet-67sesp33z5l.ws-us115.gitpod.io/GuiaDeUso">Guia De Uso</a>
         </div>
+
         <div>
         <a href="https://5173-annyellyp-locapet-67sesp33z5l.ws-us115.gitpod.io/Materiais">Materiais</a>
         </div>
+
         <div>
         <a href="https://5173-annyellyp-locapet-67sesp33z5l.ws-us115.gitpod.io/Bibliografias">Bibliografias</a>
-
         </div>
+
         <div>
         <a href="https://5173-annyellyp-locapet-67sesp33z5l.ws-us115.gitpod.io/integrantes">Integrantes</a>
         </div>
+
       </HeaderContainer>
 
       <MainContainer>
-        <p>A LocaPet é uma coleira inovadora que rastreia o seu animal de estimação utilizando tecnologia Bluetooth, transmitindo a localização para um aplicativo.</p>
-        <img src="" alt="Imagem do cachorro" />
+        <p>A segurança do seu pet 
+        em primeiro lugar</p>
+        <img src= {Cachorro} alt="Imagem do cachorro" />
       </MainContainer>
+
       <MainContainer>
-        <img src="" alt="imagem do gato" />
-        <p>O nosso projeto visa solucionar um problema relativamente comum: a perda e o desaparecimento de animais.</p>
+        <img src= {Gato} alt="imagem do gato" />
+        <p>Nossa coleira possui um design anatômico e uma bateria durável. O dispositivo conta com GPS, sensor de temperatura e sensor de batimentos cardíacos.</p>
       </MainContainer>
 
       <DownContainer>
-        <h1>LOCAPET</h1>
+        <img src= { Logo } alt="" width={200} />
         <p>Alguma dúvida? Entre em contato pelo 
         e-mail: locapet.support@gmail.com</p>
       </DownContainer>
