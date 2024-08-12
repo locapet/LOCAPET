@@ -1,5 +1,7 @@
 import { CardContainer, HeaderContainer, AContainer, BContainer, NContainer, DownContainer} from "./Home.styled";
 
+import Logo  from '../assets/Logo-svg.svg';
+
 export default function Integrantes() {
   return (
     <CardContainer>

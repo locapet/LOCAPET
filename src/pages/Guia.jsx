@@ -1,11 +1,18 @@
 import { CardContainer, HeaderContainer, PContainer, DownContainer} from "./Home.styled";
 
+import Logo  from '../assets/Logo-svg.svg';
+
+import Cachorro1 from '../assets/guia de uso 1.png'
+import Cachorro2 from '../assets/guia2.png'
+
 export default function Guia() {
   return (
     <CardContainer>
                <HeaderContainer>
-       <h1>
-        <a href="/">LOCAPET</a>
+
+        /* fazer componente do header todo */
+        <h1>
+          <a href="/"><img src= { Logo } alt="" width={200} /></a>
        </h1>
         <div>
         <a href="https://5173-annyellyp-locapet-67sesp33z5l.ws-us115.gitpod.io/GuiaDeUso">Guia De Uso</a>
@@ -24,17 +31,18 @@ export default function Guia() {
       
       <PContainer>
         <div>
-            <img src="" alt="imagem do celular" />
-            <img src="" alt="imagem da coleira" />
-            <p>Primeiramente, a coleira deverá estar carregada e ligada, e vai automaticamente estar em sincronização com o seu aplicativo. </p>
+            <img src= {Cachorro1} alt="cachorro e tela de computador" width={1200} />
+        </div>
+
+        <div>
+          <p>Tendo tanto a coleira quanto o programa de computador/celular, você poderá começar a usar o dispositivo. 
+
+Utilizando a tecnologia LoRa, a interface do aplicativo mostrará a localização do seu pet, juntamente com os batimentos cardíacos e a temperatura.</p>
+          <img src= {Cachorro2} alt="cachorro e setas com símbolos" width={1200} />
+
         </div>
         <div>
-        <img src="" alt="imagem do gps" />
-        <p>Na interface do aplicativo, será mostrada a localização do animal em tempo real.</p>
-        </div>
-        <div>
-            <img src="" alt="imagem do coração" />
-            <p>A coleira é feita de tecido à prova d'água e possui uma bateria duradoura, ideal para donos de pets fujões.</p>
+            <p>Você também poderá acessar essas informações com os horários em que foram coletadas.</p>
         </div>
       </PContainer>
 

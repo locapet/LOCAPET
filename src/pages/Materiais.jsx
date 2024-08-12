@@ -1,5 +1,7 @@
 import { CardContainer, HeaderContainer, MateContainer, DownContainer} from "./Home.styled";
 
+import Logo  from '../assets/Logo-svg.svg';
+
 export default function Materiais() {
   return (
     <CardContainer>

@@ -1,5 +1,8 @@
 import { CardContainer, HeaderContainer, PContainer, DownContainer} from "./Home.styled";
 
+import Logo  from '../assets/Logo-svg.svg';
+import Bibliografia from '../assets/bibliografia.jpg'
+
 export default function Bibliografias() {
   return (
     <CardContainer>
@@ -23,7 +26,8 @@ export default function Bibliografias() {
       </HeaderContainer>
 
       <PContainer>
-        <p>Nosso projeto é baseado em pesquisa científica, com o objetivo de encontrar a forma mais eficiente e precisa de informar a localização do seu pet.</p>
+        <img src= {Bibliografia} alt="" />
+        <p>Nosso projeto foi desenvolvido com base em pesquisas e artigos científicos para garantir sua viabilidade.</p>
 
         <div>
             <p>JESUS , Gabrielly Maia Tavares De . MAUS-TRATOS E ABANDONO DE ANIMAIS DOMÉSTICOS E SEUS DESAFIOS NO BRASIL. 1. ed. GOIÂNIA-GO: BANCA EXAMINADORA, 2021. 25-30 p. v. 1.</p>
