@@ -1,5 +1,5 @@
 import { CardContainer, HeaderContainer, PContainer, DownContainer} from "./Home.styled";
-
+import Hamburger from '../assets/harburger.svg'
 import Logo  from '../assets/Logo-svg.svg';
 
 import Cachorro1 from '../assets/guia de uso 1.png'
@@ -9,11 +9,10 @@ export default function Guia() {
   return (
     <CardContainer>
                <HeaderContainer>
-
-        /* fazer componente do header todo */
-        <h1>
+               <img src= { Hamburger } alt="" />
           <a href="/"><img src= { Logo } alt="" width={200} /></a>
-       </h1>
+        
+       
         <div>
         <a href="https://5173-annyellyp-locapet-67sesp33z5l.ws-us115.gitpod.io/GuiaDeUso">Guia De Uso</a>
         </div>

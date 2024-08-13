@@ -1,5 +1,6 @@
 import { CardContainer, HeaderContainer, MainContainer, DownContainer } from "./Home.styled";
 
+import Hamburger from '../assets/harburger.svg'
 import Logo  from '../assets/Logo-svg.svg';
 
 import Cachorro from '../assets/inicio cachorro.png';
@@ -12,6 +13,7 @@ export default function Home() {
       
       <HeaderContainer>
        <h1>
+        <img src= { Hamburger } alt="" />
         <a href="/"><img src= { Logo } alt="" width={200} /></a>
        </h1>
 
@@ -34,14 +36,14 @@ export default function Home() {
       </HeaderContainer>
 
       <MainContainer>
-        <p>A segurança do seu pet 
-        em primeiro lugar</p>
+        <h1>A segurança do seu pet <span>em primeiro lugar</span>
+        </h1>
         <img src= {Cachorro} alt="Imagem do cachorro" />
       </MainContainer>
 
       <MainContainer>
         <img src= {Gato} alt="imagem do gato" />
-        <p>Nossa coleira possui um design anatômico e uma bateria durável. O dispositivo conta com GPS, sensor de temperatura e sensor de batimentos cardíacos.</p>
+        <p>Nossa coleira possui um design anatômico e uma bateria durável. O dispositivo conta com <span>GPS</span>, <span>sensor de temperatura</span> e sensor de <span>batimentos cardíacos.</span></p>
       </MainContainer>
 
       <DownContainer>

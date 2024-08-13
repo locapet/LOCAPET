@@ -1,5 +1,5 @@
 import { CardContainer, HeaderContainer, PContainer, DownContainer} from "./Home.styled";
-
+import Hamburger from '../assets/harburger.svg'
 import Logo  from '../assets/Logo-svg.svg';
 import Bibliografia from '../assets/bibliografia.jpg'
 
@@ -7,9 +7,9 @@ export default function Bibliografias() {
   return (
     <CardContainer>
         <HeaderContainer>
-       <h1>
+        <img src= { Hamburger } alt="" />
         <a href="/">LOCAPET</a>
-       </h1>
+       
         <div>
         <a href="https://5173-annyellyp-locapet-67sesp33z5l.ws-us115.gitpod.io/GuiaDeUso">Guia De Uso</a>
         </div>
@@ -27,7 +27,7 @@ export default function Bibliografias() {
 
       <PContainer>
         <img src= {Bibliografia} alt="" />
-        <p>Nosso projeto foi desenvolvido com base em pesquisas e artigos científicos para garantir sua viabilidade.</p>
+        <p>Nosso projeto foi desenvolvido com base em pesquisas e artigos científicos para garantir sua viabilidade. </p>
 
         <div>
             <p>JESUS , Gabrielly Maia Tavares De . MAUS-TRATOS E ABANDONO DE ANIMAIS DOMÉSTICOS E SEUS DESAFIOS NO BRASIL. 1. ed. GOIÂNIA-GO: BANCA EXAMINADORA, 2021. 25-30 p. v. 1.</p>
